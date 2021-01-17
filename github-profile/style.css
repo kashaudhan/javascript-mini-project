@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    background-origin: border-box;
+}
+
+body{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+input{
+    border: 2px solid rgb(26, 26, 110);
+    padding: 1rem 2rem;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    outline: 0px solid transparent;
+    font-size: 1.5rem;
+    height: 7px;
+    background: rgb(251,251,251);
+background: linear-gradient(90deg, rgba(251,251,251,1) 16%, rgba(131,58,180,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+main{
+    border: lightgray;
+}
+
+.card{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,2,105,1) 100%, rgba(252,176,69,1) 100%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 573px;
+    display: flex;
+    padding: 3rem;
+
+}
+
+.avatar{
+    border: 10px solid #2a2a72;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info{
+    color: lightgray;
+    margin-left: 2rem;
+
+}
+.user-info h2{
+    margin-top: 0;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+
+
+.repo {
+    background-color: rgb(0, 84, 163);
+    /* text-align: center; */
+    border-radius: 5px;
+    display: inline-block;
+    color: ivory;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
